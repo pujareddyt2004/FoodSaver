@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7087CFDE2932F2DA004C5E34 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087CFDD2932F2DA004C5E34 /* MoreInfoViewController.swift */; };
+		7087CFE02933C1FD004C5E34 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087CFDF2933C1FD004C5E34 /* Info.swift */; };
 		70A7305928EF13ED00AB6365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7305828EF13ED00AB6365 /* AppDelegate.swift */; };
 		70A7305B28EF13ED00AB6365 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7305A28EF13ED00AB6365 /* SceneDelegate.swift */; };
 		70A7305D28EF13ED00AB6365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7305C28EF13ED00AB6365 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		70A7306828EF13F100AB6365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A7306628EF13F100AB6365 /* LaunchScreen.storyboard */; };
 		70A7307328EF13F200AB6365 /* FoodSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7307228EF13F200AB6365 /* FoodSaverTests.swift */; };
 		70A7307E28EF13F200AB6365 /* FoodSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7307D28EF13F200AB6365 /* FoodSaverUITests.swift */; };
+		70B174F929082A00009CF996 /* ResultsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B174F829082A00009CF996 /* ResultsListViewController.swift */; };
+		70F70E8328FF70A600AD82A5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F70E8228FF70A600AD82A5 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7087CFDD2932F2DA004C5E34 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		7087CFDF2933C1FD004C5E34 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		70A7305528EF13ED00AB6365 /* FoodSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7305828EF13ED00AB6365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A7305A28EF13ED00AB6365 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		70A7307928EF13F200AB6365 /* FoodSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7307D28EF13F200AB6365 /* FoodSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSaverUITests.swift; sourceTree = "<group>"; };
 		70A7307F28EF13F200AB6365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B174F829082A00009CF996 /* ResultsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsListViewController.swift; sourceTree = "<group>"; };
+		70F70E8228FF70A600AD82A5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				70A7306628EF13F100AB6365 /* LaunchScreen.storyboard */,
 				70A7306928EF13F100AB6365 /* Info.plist */,
 				70A7306128EF13ED00AB6365 /* FoodSaver.xcdatamodeld */,
+				70F70E8228FF70A600AD82A5 /* Response.swift */,
+				70B174F829082A00009CF996 /* ResultsListViewController.swift */,
+				7087CFDD2932F2DA004C5E34 /* MoreInfoViewController.swift */,
+				7087CFDF2933C1FD004C5E34 /* Info.swift */,
 			);
 			path = FoodSaver;
 			sourceTree = "<group>";
@@ -263,9 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A7305D28EF13ED00AB6365 /* ViewController.swift in Sources */,
+				7087CFE02933C1FD004C5E34 /* Info.swift in Sources */,
+				70B174F929082A00009CF996 /* ResultsListViewController.swift in Sources */,
 				70A7305928EF13ED00AB6365 /* AppDelegate.swift in Sources */,
+				7087CFDE2932F2DA004C5E34 /* MoreInfoViewController.swift in Sources */,
 				70A7305B28EF13ED00AB6365 /* SceneDelegate.swift in Sources */,
 				70A7306328EF13ED00AB6365 /* FoodSaver.xcdatamodeld in Sources */,
+				70F70E8328FF70A600AD82A5 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
